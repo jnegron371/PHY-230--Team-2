@@ -13,7 +13,6 @@ def pi(numDarts):
     circle = 0
 
     for i in range(numDarts):
-
         a = x[i]
         b = y[i]
         
