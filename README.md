@@ -1,5 +1,5 @@
 # PHY-230--Team-2
-#Jenny editing things
+
 import numpy as np
 import matplotlib.pyplot as plt
 import math
@@ -35,3 +35,4 @@ def pi(numDarts):
     
 
 pi(900)
+#Jenny created a branch and added this comment
