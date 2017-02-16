@@ -16,24 +16,24 @@
             a = x[i]
             b = y[i]
         
-            d = np.sqrt(a**2+b**2) #coordinate of the dart
+            d = np.sqrt(a**2+b**2) 
 
             if d <= 1:
                 circle = circle + 1
-                plt.plot(a, b, 'go') #the dart is in the circle
+                plt.plot(a, b, 'go') 
             else:
-                plt.plot(a, b, 'ro') #the dart is outside of the circle
+                plt.plot(a, b, 'ro') 
             
         pival = circle/numDarts * 4
-        print(pival) #prints estimation of pi
+        print(pival) 
+        
+        plt.scatter(a, b, s=area, alpha=.5)
         
-        #Displays the graph
-        plt.scatter(a, b, s=area, alpha=.5)
-        
-        #Graph title
         plt.title('$value of \pi$')
         plt.text("$\pi= pi$")
         plt.show()
     
         pi(900)
+        
+        #Julena was here
 
